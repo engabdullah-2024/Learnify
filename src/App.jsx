@@ -9,6 +9,8 @@ import Contact from './pages/Contact';
 import Testimonials from './pages/Testimonials';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Cart from './components/Cart';
+import Blog from './components/Blog';
 // import Services from './components/Services';
 // import Contact from './components/Contact';
 
@@ -25,6 +27,8 @@ function App() {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer />
       </div>

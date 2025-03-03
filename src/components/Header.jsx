@@ -45,6 +45,9 @@ const Header = () => {
               <Link to="/register" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">
                 Sign Up
               </Link>
+              <Link to="/cart" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors">
+                Cart 
+              </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -76,7 +79,7 @@ const Header = () => {
                 <Link to="/" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
                   Home
                 </Link>
-                <Link to="/courses" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
+                <Link to="/course" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
                   Courses
                 </Link>
                 <Link to="/about" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
